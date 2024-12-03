@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body{
+    font-family: "Poppins";
+}
+.jumbotron{
+    background-color: #ffffff;
+}
+
+#project {
+    background-color: #ffffff;
+}
+
+.img-circle{
+    border-radius: 200px;
+}
+
+.profile-img{
+    border-radius: 40px;
+    float: left;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+#about {
+    position: relative;
+}
+  
+.about-containers {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+  
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers,.about-details-container {
+    display: flex;
+}
+  
+.details-container {
+    padding: 10px;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.text-container{
+    margin-left: 70px;
+}
+  
+.icon {
+    margin-top: 10px;
+    cursor: pointer;
+    height: 2rem;
+  }
+
+.soc-icon{
+    cursor: pointer;
+    height:2rem;
+}
+
+.soc-icon-1{
+    cursor: pointer;
+    height: 2.48rem;
+}
+
+.title-icon{
+    font-size: 20px;
+}
+
+.text-muted{
+    font-size: 16px;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.btn {
+    border: 2px solid rgba(0, 0, 0, 0.158);
+    margin-bottom: 60px;
+}
+
+.btn-ctc {
+    border: 2px solid rgba(0, 0, 0, 0.158);
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 6px;
+    float: left;
+    margin-right: 20px;
+}
+
+.btn:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn-1{
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+
+.btn-1:hover {
+    background: rgb(53, 53, 53);
+    color: white;
+  }
+
+.btn-2{
+    background: rgb(53, 53, 53);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.title{
+    margin-bottom: 5;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#project {
+    text-align: center;
+    justify-content: center;
+    margin-top: 6em;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    margin: 2rem auto;
+    padding: 10x;
+  }
+  
+.contact-info-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    margin: 1rem;
+}
+
+.contact-info-container p{
+    padding-top: 15px ;
+    
+}
+  
+.contact-icon {
+    padding-top: 0;
+    cursor: default;
+    height: 2rem;
+}
+  
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
